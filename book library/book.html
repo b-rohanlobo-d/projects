@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Judson&family=Quando&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: grid;
+            justify-items: center;
+            font-family: "Judson", serif;
+            --brown: rgb(90, 55, 8);
+            --bkg: rgb(255, 255, 232);
+            background-color: var(--bkg);
+            background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+        }
+
+        p {
+            line-height: 30px;
+            text-align: justify;
+            margin-bottom: 1.5em;
+        }
+
+        p > span {
+            font-weight: 400;
+            font-style: italic;
+            display: block;
+            padding: 1em 3em;
+            font-size: 1.2rem;
+        }
+
+        p > strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        h1, h2, h3 {
+            font-family: "Quando", serif;
+            color: var(--brown);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 1em 0 0.1em;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            margin-bottom: 1em;
+        }
+
+        h3 {
+            font-weight: normal;
+            margin: 2em 0 1em;
+            font-size: 1.5rem;
+        }
+
+        .bkg {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 900px;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.5;
+            mix-blend-mode: exclusion;
+        }
+
+        .bkg img {
+            width: 100%;
+            height: auto;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 800px;
+            padding: 1em;
+            font-size: 18px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5em;
+            position: relative;
+            z-index: 1;
+        }
+
+        .chapter {
+            margin-bottom: 2em;
+        }
+
+        @media screen and (max-width: 640px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                margin-bottom: 1em;
+            }
+        }
+        .gold1{
+            color:rgb(203, 157, 41);
+        }
+    </style>
+</head>
+<body>
+    <div class="bkg">
+        <img src="https://www.sicontis.com/codepen/cpc-book-text/flowers.png" alt="flowers background">
+    </div>
+    <div class="page">
+
+        <h1>Things I Never Said</h1>
+        <h2>by Claudia Willison</h2>
+
+        <div class="chapter">
+            <h3 class="gold1">Chapter 1: The Silence Between Us</h3>
+            <p>In the opening chapter of "Things I Never Said," we meet Emma, a woman in her mid-thirties grappling with the recent death of her estranged mother, Mary. The story begins with Emma returning to her childhood home to sort through her mother's belongings. The old house, filled with dusty memorabilia and forgotten trinkets, becomes a character in itself, symbolizing the many unspoken words and unresolved issues between them. Emma's relationship with her mother was marked by a profound silence, a gap filled with misunderstandings and unmet expectations. As Emma sifts through her mother's possessions, she uncovers old letters, photographs, and mementos that hint at a life full of secrets and untold stories. These discoveries set Emma on a path of introspection and reconciliation, where she must confront her own feelings of guilt, loss, and the what-ifs of their relationship. The silence that once seemed impenetrable now beckons Emma to uncover the truth about her mother's past and her own place within it.</p>
+        </div>
+
+        <div class="chapter">
+            <h3 class="gold1">Chapter 2: Echoes of the Past</h3>
+            <p>Determined to find closure, Emma decides to take a leave of absence from her high-pressure job in the city and returns to her small hometown. This chapter delves into the nostalgia and mixed emotions that accompany her return. Emma revisits familiar places that are now tinged with the passage of time and her own personal growth. She reconnects with old friends and neighbors, each encounter shedding new light on her mother's life. Through these interactions, Emma begins to piece together a portrait of her mother that is more complex and nuanced than she ever imagined. She learns about her mother's dreams, disappointments, and the sacrifices she made. The chapter crescendos with Emma discovering a hidden journal in her mother's bedroom, a treasure trove of personal reflections and intimate thoughts. This discovery marks a turning point, igniting a deep and personal quest to understand the woman her mother was beyond the role of just being her parent.</p>
+        </div>
+
+        <div class="chapter">
+            <h3 class="gold1">Chapter 3: Unspoken Words</h3>
+            <p>In this chapter, Emma immerses herself in her mother's journal, uncovering a narrative that spans decades. The entries reveal Mary's inner life, her struggles with love, identity, and the societal constraints of her time. Emma learns about her mother's youthful ambitions, her passionate yet tumultuous relationship with Emma's father, and the compromises she made along the way. The journal entries are interspersed with Emma's reflections, as she draws parallels between her mother's experiences and her own. The unspoken words and hidden truths within the journal provide Emma with a new perspective on her mother, one that is filled with empathy and understanding. As Emma delves deeper into the journal, she begins to see her mother as a woman who was both strong and vulnerable, capable of great love but also subject to profound fears and insecurities. This chapter is a journey of discovery and connection, as Emma starts to bridge the emotional distance that once separated them.</p>
+        </div>
+
+        <div class="chapter">
+            <h3 class="gold1">Chapter 4: Crossing the Divide</h3>
+            <p>The fourth chapter sees Emma reaching out to people who played significant roles in her mother's life, guided by names and events mentioned in the journal. She meets with old friends of her mother, former colleagues, and even a long-lost relative. These interactions are revealing and often surprising, as each person shares their unique perspective on Mary. Emma learns about her mother's activism, her passion for social justice, and her quiet acts of rebellion against societal norms. She uncovers stories of love and loss, of dreams deferred and hopes sustained. Through these conversations, Emma begins to piece together a fuller, richer picture of her mother's life. The chapter highlights the importance of understanding one's roots and the profound impact of the past on the present. It also emphasizes the interconnectedness of lives and the enduring influence of personal histories.</p>
+        </div>
+
+        <div class="chapter">
+            <h3 class="gold1">Chapter 5: Shadows and Light</h3>
+            <p>In this chapter, Emma faces the darker aspects of her mother's past, including family secrets and personal failures that were never spoken of. The journal entries take a somber turn, revealing moments of deep despair and regret. Emma learns about the challenges her mother faced, including a miscarriage, a strained marriage, and battles with mental health. These revelations are painful and challenging for Emma, forcing her to confront her own preconceptions and judgments. However, they also bring a sense of catharsis and deeper understanding. Emma realizes that her mother's silence was often a shield, a way to protect herself and those she loved from the harsh realities of life. This chapter is a turning point in Emma's journey, as she grapples with the complexities of her mother's character and the legacy of her choices.</p>
+        </div>
+
+        <div class="chapter">
+            <h3 class="gold1">Chapter 6: The Ties That Bind</h3>
+            <p>Emma's journey of discovery continues as she delves into her own childhood memories, seeking connections between her experiences and the stories she has uncovered. She reflects on her relationship with her mother, reinterpreting past events in light of the new information she has gained. Emma begins to understand the motivations behind her mother's actions and the unspoken love that underpinned their relationship. This chapter explores themes of forgiveness and reconciliation, as Emma comes to terms with her own feelings of resentment and loss. She realizes that the ties that bind her to her mother are stronger and more complex than she ever imagined. Emma's journey becomes not just about understanding her mother, but also about healing herself and finding peace with her past.</p>
+        </div>
+
+        <div class="chapter">
+            <h3 class="gold1">Chapter 7: Finding Her Voice</h3>
+            <p>Empowered by the knowledge she has gained, Emma decides to take control of her own narrative. She begins to write her own journal, documenting her thoughts, feelings, and the lessons she has learned. This act of writing becomes a form of therapy, helping Emma to process her emotions and articulate her own identity.Continuing from where the previous HTML code left off:
+
+```html
+            <p>This act of writing becomes a form of therapy, helping Emma to process her emotions and articulate her own identity. She reflects on her career, her relationships, and her aspirations, making conscious choices about her future. This chapter highlights the transformative power of self-expression and the importance of finding one's voice. Emma's journey comes full circle as she realizes that her mother's story has become a part of her own, shaping her in ways she never expected. She feels a renewed sense of purpose and direction, ready to face the future with courage and confidence.</p>
+        </div>
+
+        <div class="chapter">
+            <h3 class="gold1">Chapter 8: The Silence Broken</h3>
+            <p>The final chapter brings Emma's journey to a poignant and satisfying conclusion. She organizes a memorial for her mother, inviting friends and family to share their memories and celebrate her life. The event is a testament to the love and respect that Mary inspired in those who knew her. Emma gives a heartfelt speech, sharing the insights and understanding she has gained through her journey. She speaks of the unspoken words, the hidden truths, and the enduring bond between mother and daughter. The memorial becomes a moment of closure and healing, as Emma and the attendees find solace in their shared memories. The chapter ends with Emma feeling at peace, ready to embrace the future with the wisdom and strength she has inherited from her mother. The silence between them has been broken, replaced by a legacy of love, understanding, and hope.</p>
+        </div>
+
+    </div>
+</body>
+</html>
